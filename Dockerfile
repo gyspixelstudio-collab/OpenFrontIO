@@ -1,5 +1,5 @@
-# Use a highly compatible Node 18 runtime
-FROM node:18-alpine
+# Use Node 22 to satisfy package requirements
+FROM node:22-alpine
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app
